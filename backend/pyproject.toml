@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidencedesk"
+version = "0.1.0"
+description = "Evidence-grounded document intelligence for local document collections"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn[standard]>=0.30,<1", "pydantic>=2.8,<3",
+  "python-multipart>=0.0.12,<1", "PyMuPDF>=1.24,<2", "rank-bm25>=0.2.2,<1",
+]
+
+[project.optional-dependencies]
+vector = ["sentence-transformers>=3.0,<6", "faiss-cpu>=1.8,<2"]
+llm = ["openai>=1.50,<3"]
+dev = ["pytest>=8,<9", "httpx>=0.27,<1", "ruff>=0.6,<1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: ./backend
+    env_file: .env
+    environment:
+      ED_DATA_DIR: /app/data
+    volumes:
+      - evidencedesk_data:/app/data
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+volumes:
+  evidencedesk_data:

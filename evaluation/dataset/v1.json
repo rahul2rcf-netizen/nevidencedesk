@@ -1,0 +1,536 @@
+{
+  "version": "1.0.0",
+  "label": "SYNTHETIC DEMO DATA \u2014 fictional community center handbook",
+  "questions": [
+    {
+      "id": "v1-a01",
+      "question": "When does the community center open on weekdays?",
+      "answerable": true,
+      "expected_answer": "8:00 AM",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The community center opens at 8:00 AM on weekdays."
+    },
+    {
+      "id": "v1-a02",
+      "question": "What time does the center close Monday through Friday?",
+      "answerable": true,
+      "expected_answer": "9:00 PM",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The building closes at 9:00 PM Monday through Friday."
+    },
+    {
+      "id": "v1-a03",
+      "question": "What are weekend opening hours?",
+      "answerable": true,
+      "expected_answer": "10:00 AM to 6:00 PM",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Weekend hours are 10:00 AM to 6:00 PM."
+    },
+    {
+      "id": "v1-a04",
+      "question": "Where must visitors register?",
+      "answerable": true,
+      "expected_answer": "front desk",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Visitors must sign in at the front desk."
+    },
+    {
+      "id": "v1-a05",
+      "question": "What should staff wear visibly inside?",
+      "answerable": true,
+      "expected_answer": "Staff badges",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Staff badges must be visible inside the building."
+    },
+    {
+      "id": "v1-a06",
+      "question": "Which entrance has a ramp?",
+      "answerable": true,
+      "expected_answer": "west entrance",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The west entrance is accessible by ramp."
+    },
+    {
+      "id": "v1-a07",
+      "question": "How many spaces are in the public parking lot?",
+      "answerable": true,
+      "expected_answer": "42 spaces",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The public parking lot has 42 spaces."
+    },
+    {
+      "id": "v1-a08",
+      "question": "Where are bicycle racks located?",
+      "answerable": true,
+      "expected_answer": "beside the north entrance",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Bicycle racks are located beside the north entrance."
+    },
+    {
+      "id": "v1-a09",
+      "question": "Which floor has reception?",
+      "answerable": true,
+      "expected_answer": "ground floor",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The reception desk is on the ground floor."
+    },
+    {
+      "id": "v1-a10",
+      "question": "How many public floors does the building have?",
+      "answerable": true,
+      "expected_answer": "three",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The building has three public floors."
+    },
+    {
+      "id": "v1-a11",
+      "question": "How far in advance can a meeting room be booked?",
+      "answerable": true,
+      "expected_answer": "60 days",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Meeting rooms may be reserved up to 60 days in advance."
+    },
+    {
+      "id": "v1-a12",
+      "question": "What is the maximum length for a standard room booking?",
+      "answerable": true,
+      "expected_answer": "two hours",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "A standard room reservation lasts no more than two hours."
+    },
+    {
+      "id": "v1-a13",
+      "question": "Do community groups pay for room use?",
+      "answerable": true,
+      "expected_answer": "no charge",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Community groups receive room use at no charge."
+    },
+    {
+      "id": "v1-a14",
+      "question": "When should a reservation be cancelled?",
+      "answerable": true,
+      "expected_answer": "at least 24 hours before",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Reservations must be cancelled at least 24 hours before the start time."
+    },
+    {
+      "id": "v1-a15",
+      "question": "What is the capacity of the largest meeting room?",
+      "answerable": true,
+      "expected_answer": "30 people",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The largest meeting room holds 30 people."
+    },
+    {
+      "id": "v1-a16",
+      "question": "How many people fit in the small study room?",
+      "answerable": true,
+      "expected_answer": "4 people",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The small study room holds 4 people."
+    },
+    {
+      "id": "v1-a17",
+      "question": "Where do people collect room keys?",
+      "answerable": true,
+      "expected_answer": "reception",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Room keys are collected from reception."
+    },
+    {
+      "id": "v1-a18",
+      "question": "In which room is food permitted?",
+      "answerable": true,
+      "expected_answer": "conference room",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Food is allowed only in the conference room."
+    },
+    {
+      "id": "v1-a19",
+      "question": "Where is the projector kept?",
+      "answerable": true,
+      "expected_answer": "meeting room B",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The projector is stored in meeting room B."
+    },
+    {
+      "id": "v1-a20",
+      "question": "When does a large event need staff approval?",
+      "answerable": true,
+      "expected_answer": "more than 20 attendees",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Events with more than 20 attendees require staff approval."
+    },
+    {
+      "id": "v1-a21",
+      "question": "When does program registration begin each month?",
+      "answerable": true,
+      "expected_answer": "first day",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Program registration opens on the first day of each month."
+    },
+    {
+      "id": "v1-a22",
+      "question": "Who gets priority for a full class?",
+      "answerable": true,
+      "expected_answer": "Residents",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Residents receive priority when a class is full."
+    },
+    {
+      "id": "v1-a23",
+      "question": "How many classes may a participant join per season?",
+      "answerable": true,
+      "expected_answer": "three",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "A participant may join up to three classes per season."
+    },
+    {
+      "id": "v1-a24",
+      "question": "How many seasonal sessions are held each year?",
+      "answerable": true,
+      "expected_answer": "six",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The center offers six seasonal sessions each year."
+    },
+    {
+      "id": "v1-a25",
+      "question": "How are class cancellations communicated?",
+      "answerable": true,
+      "expected_answer": "email",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Class cancellations are sent by email."
+    },
+    {
+      "id": "v1-a26",
+      "question": "Who must accompany a participant younger than 12?",
+      "answerable": true,
+      "expected_answer": "an adult",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Participants under age 12 must attend with an adult."
+    },
+    {
+      "id": "v1-a27",
+      "question": "In what season are swimming lessons offered?",
+      "answerable": true,
+      "expected_answer": "summer",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The swimming lesson program is offered in summer."
+    },
+    {
+      "id": "v1-a28",
+      "question": "Which day is the art studio closed?",
+      "answerable": true,
+      "expected_answer": "Mondays",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The art studio is closed on Mondays."
+    },
+    {
+      "id": "v1-a29",
+      "question": "What happens when a class reaches capacity?",
+      "answerable": true,
+      "expected_answer": "A waitlist",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "A waitlist is used when a class reaches capacity."
+    },
+    {
+      "id": "v1-a30",
+      "question": "How long after registration can a refund be requested?",
+      "answerable": true,
+      "expected_answer": "seven days",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Refund requests must be submitted within seven days of registration."
+    },
+    {
+      "id": "v1-a31",
+      "question": "How many items can a member borrow from the lending library?",
+      "answerable": true,
+      "expected_answer": "two items",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The lending library allows two items per member."
+    },
+    {
+      "id": "v1-a32",
+      "question": "What is the loan period for library items?",
+      "answerable": true,
+      "expected_answer": "14 days",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Items may be borrowed for 14 days."
+    },
+    {
+      "id": "v1-a33",
+      "question": "How much is the daily late return fee?",
+      "answerable": true,
+      "expected_answer": "one dollar per day",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "A late return fee is one dollar per day."
+    },
+    {
+      "id": "v1-a34",
+      "question": "How many plots are in the community garden?",
+      "answerable": true,
+      "expected_answer": "18 plots",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The community garden has 18 plots."
+    },
+    {
+      "id": "v1-a35",
+      "question": "When are garden plot applications due?",
+      "answerable": true,
+      "expected_answer": "March 1",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Garden plot applications are due by March 1."
+    },
+    {
+      "id": "v1-a36",
+      "question": "How many workstations are in the computer lab?",
+      "answerable": true,
+      "expected_answer": "12 workstations",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The computer lab contains 12 workstations."
+    },
+    {
+      "id": "v1-a37",
+      "question": "What is the public computer session limit?",
+      "answerable": true,
+      "expected_answer": "one hour",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Public computer sessions are limited to one hour."
+    },
+    {
+      "id": "v1-a38",
+      "question": "What is the cost per black-and-white printed page?",
+      "answerable": true,
+      "expected_answer": "ten cents",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Printing costs ten cents per black-and-white page."
+    },
+    {
+      "id": "v1-a39",
+      "question": "Is public Wi-Fi free?",
+      "answerable": true,
+      "expected_answer": "free",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "The center provides free public Wi-Fi."
+    },
+    {
+      "id": "v1-a40",
+      "question": "How long is lost property held?",
+      "answerable": true,
+      "expected_answer": "30 days",
+      "supporting_document_id": "northstar-demo",
+      "supporting_pages": [
+        1
+      ],
+      "evidence": "Lost property is held for 30 days."
+    },
+    {
+      "id": "v1-u01",
+      "question": "What is the center's annual operating budget?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    },
+    {
+      "id": "v1-u02",
+      "question": "How many employees work at the center?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    },
+    {
+      "id": "v1-u03",
+      "question": "What brand are the computers?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    },
+    {
+      "id": "v1-u04",
+      "question": "Who designed the building?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    },
+    {
+      "id": "v1-u05",
+      "question": "What is the director's home address?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    },
+    {
+      "id": "v1-u06",
+      "question": "How many visitors came last year?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    },
+    {
+      "id": "v1-u07",
+      "question": "What is the price of a garden plot?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    },
+    {
+      "id": "v1-u08",
+      "question": "Which company supplies the Wi-Fi?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    },
+    {
+      "id": "v1-u09",
+      "question": "What is the center's social media password?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    },
+    {
+      "id": "v1-u10",
+      "question": "How many square meters is the building?",
+      "answerable": false,
+      "expected_answer": "",
+      "supporting_document_id": null,
+      "supporting_pages": [],
+      "evidence": ""
+    }
+  ]
+}
